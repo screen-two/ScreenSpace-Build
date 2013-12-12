@@ -1,0 +1,886 @@
+/* //// BEGIN GENERAL PAGE STYLES //// */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+	background: url(../images/BACKGROUND.png);
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background-size: 100%;
+	background-color: #000;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.1em;
+	font-weight: 300;        
+}
+
+p {
+    font-size: 1em;
+}
+
+blockquote {
+        
+}
+
+ul, ol {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol li {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.page { 
+	-webkit-transform: translate3d(0,0,0); 
+} 
+
+#pages > div {
+    display: none;
+}
+
+#pages > div.current {
+    display: block;
+}
+
+input[type=submit] {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+	text-align: center;
+	width: 250px;
+	color: #fff;
+	padding-left: 5px 0 5px;
+	font-weight: 300;
+	border: 2px solid #fff;
+	margin: 25px 0 0 3px;
+	font-size: 1.8em;
+	background: none;
+}
+
+
+/* //// END GENERAL PAGE STYLES //// */
+
+
+/* ---- //// BEGIN CHECKNET STYLES ////---- */
+
+#netWarn {
+	display: none; 
+	margin: 0; 
+	padding: 0.5em 1em; 
+	border: 0; 
+	border-bottom: thin solid #FFDEDE; 
+	text-align: center; 
+	color: #666; 
+	text-shadow: 1px 1px 1px #FFEFEF;
+	background-color: #FFEFEF;
+	
+	background-image: -webkit-linear-gradient(top, #FFEFEF, #FFDFDF); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	
+}
+
+/* ---- //// END CHECKNET STYLES ////---- */
+
+/* //// BEGIN AUTHENTICATION SCREEN STYLES //// */
+
+/*.tv-shows-container {
+	display: none;
+}*/
+
+.login-wrapper {
+	width: 600px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0,.8);
+	padding: 30px;
+}
+
+.login-wrapper h3 {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 11pt;
+	font-weight: 100;
+}
+
+.twitter-login-icon {
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8px;
+}
+
+
+.twitter-login {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 16pt;
+	font-weight: 300;
+	padding: 4px;
+}
+ 
+/* //// END AUTHENTICATION SCREEN STYLES //// */
+
+/* //// BEGIN PARALLAX  STYLES //// */
+
+img {
+  display: block;
+}
+
+
+.scene {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.scene li.layer img.background-img {
+  width: 100% !important;
+}
+
+
+
+/* /  We can set individual layer opacities here/ */
+
+.layer:nth-child(1) {
+
+}
+.layer:nth-child(2) {
+
+}
+.layer:nth-child(3) {
+
+}
+.layer:nth-child(4) {
+
+}
+.layer:nth-child(5) {
+
+}
+.layer:nth-child(6) {
+  
+}
+
+
+/* //// END GENERAL PAGE STYLES //// */
+
+/* //// BEGIN HEADER STYLES //// */
+
+header {
+	margin: 35px 0 0 0;
+}
+
+.navbar{
+	width: 100%;
+	border-width: 0px;
+}
+
+
+.tvshows{
+	float: right;
+	width: 400px;
+
+}
+
+.birdicon{
+	float: left;
+	margin-right: 10px;
+}
+
+.birdicon img{
+	width: 100%;
+}
+
+.count_caption {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25pt;
+	align: centre;
+	font-weight: 800;
+	text-align: center;
+	text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+	-webkit-opacity: 0.6;
+}
+
+
+.count_caption p {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25pt;
+	align: centre;
+	font-weight: 800;
+	text-align: center;
+	text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+	-webkit-opacity: 0.9;
+}
+
+
+.station_caption{
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 50pt;
+	align: centre;
+	padding-top: 15px;
+	font-weight: 900;
+	text-align: center;
+	text-shadow: -0.06em 0 red, 0.06em 0 cyan; 
+	-webkit-transform: rotate(-90deg);
+	position: fixed;
+	top: 35px;
+	right: 180px;  
+	letter-spacing: 2px;
+	line-height: 1.5;
+	
+
+}
+
+
+.connector{
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 50pt;
+	align: centre;
+	padding-top: 15px;
+	text-align: center;
+	text-shadow: -0.06em 0 red, 0.06em 0 cyan; 
+	-webkit-transform: rotate(-45deg);
+	position: fixed;
+	top: 170px;
+	right: 222px;   
+	letter-spacing: 2px;
+	line-height: 1.5;
+
+}
+
+.caption{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	font-size: 22pt;
+	padding-top: 15px;
+	text-align: center;
+
+
+}
+
+
+
+.white_circle {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    float: left;
+    height: 15px;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    width: 15px;
+}
+
+
+
+.infoicon {
+	float: left;
+}
+  
+
+        
+.title-left {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	float: left;
+	text-align: center;
+	width: 250px;
+	color: #fff;
+	padding-left: 5px 0 5px;
+	font-weight: 300;
+	border: 2px solid #fff;
+	margin: 25px 0 0 3px;
+}
+
+.customise {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	text-align: center;
+	float: left;
+	font-size: 25px;
+	width: 250px;
+	color: #fff;
+	margin-top: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 300;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}          
+
+/* //// END HEADER STYLES //// */
+
+/* //// BEGIN CONTENT STYLES //// */
+
+.content-wrapper {
+    margin: 20px auto;
+}
+         
+          
+.current_user {
+	float: left;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 24px;
+	color: #00dcf0;
+	font-weight: 300;
+}
+
+/* ---- BEGIN VISUALS STYLES ---- */
+
+.tv-shows-container {
+	width: 750px;
+	height: 500px;
+	margin: auto;
+	padding-left: 200px;
+	color: #FFF;
+}
+
+.tv-shows-container > div {
+	padding-top: 55px;
+}
+
+.inner-two{
+    height: 100%;
+    width: 100%;
+	background: none;
+	border: 5px solid #4CCEC3;
+	border-radius: 50%;
+	padding: 10px;
+    box-sizing: border-box;
+}
+
+.inner-three{
+	height: 100%;
+	width: 100%;
+	background: none;
+	border-radius: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.tv-show {
+	float: left;
+	width: 49%;
+}
+
+.tv-show .circle {
+	width: 190px;
+	border-radius: 50%;
+	height: 190px;
+	transform: scale(2);
+}
+
+/*.tv-show .circle p {
+        display: block;
+        vertical-align: bottom;
+        height: 100%;
+        text-align: center;
+        padding: 36% 0 0;
+}
+
+#rte1 .circle {
+        border: 2px solid #F03;
+        box-shadow:  0px 0px 15px 5px #FF3300;
+}
+
+#rte2 .circle {
+        border: 2px solid #0C0;
+        box-shadow:  0px 0px 15px 5px  #00FF00;
+}
+
+#tv3 .circle {
+        border: 2px solid #36F;
+        box-shadow: 0px 0px 15px 5px #00CCFF;
+}
+
+#tg4 .circle{
+        border: 2px solid #C0C;
+        box-shadow:  0px 0px 15px 5px #FF66FF;
+}*/
+
+
+	
+#rte1 .circle {
+	border: 2px solid #55e8db;
+	-webkit-animation-name: rte1Pulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite; 	
+}
+    
+#rte2 .circle {
+	border: 2px solid #e83a9a;
+	-webkit-animation-name: rte2Pulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#tv3 .circle {
+	border: 2px solid #719fff;
+	box-shadow: 0 0 30px #EC637B;
+	-webkit-animation-name: tv3Pulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite; 
+      
+}
+
+#tg4 .circle{
+	border: 2px solid #bf4dff;
+	box-shadow: 0 0 30px #EC637B; 
+	-webkit-animation-name: tg4Pulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+#rte1 .inner-two {
+	border: 5px solid #266863;
+		
+}
+    
+#rte2 .inner-two{
+	border: 5px solid #681a45; 
+		
+        	
+        
+}
+#tv3 .inner-two {
+	border: 5px solid #394b7f;
+       
+}
+
+#tg4 .inner-two{
+	border: 5px solid #63367f;
+        
+}
+
+
+
+#rte1 .inner-three {
+	background: rgba(76, 205, 195, 0.2);
+	border: 5px dashed #5af5e7;
+}
+    
+#rte2 .inner-three {
+	background: rgba(206, 52, 137, 0.2);
+	border: 5px dashed #f53da2;
+}
+
+#tv3 .inner-three {
+	background: rgba(85, 7, 191, 0.2);
+	border: 5px dashed #6686e5;
+}
+
+#tg4 .inner-three {
+	background: rgba(99, 54, 127, 0.2);
+	border: 4px dashed #c76cff;
+		
+}
+
+@-webkit-keyframes rte1Pulse {
+  from {  -webkit-box-shadow: 0 0 18px #4CCEC3; }
+  50% {  -webkit-box-shadow: 0 0 60px #266863; }
+  to {  -webkit-box-shadow: 0 0 18px #4CCEC3; }
+}
+
+@-webkit-keyframes rte2Pulse {
+  from {  -webkit-box-shadow: 0 0 18px #ce3489; }
+  50% {  -webkit-box-shadow: 0 0 60px #681a45; }
+  to {  -webkit-box-shadow: 0 0 18px #ce3489; }
+}
+
+@-webkit-keyframes tv3Pulse {
+  from {  -webkit-box-shadow: 0 0 18px #c76cff; }
+  50% {  -webkit-box-shadow: 0 0 60px #681a45; }
+  to {  -webkit-box-shadow: 0 0 18px #c76cff; }
+}
+
+
+@-webkit-keyframes tg4Pulse {
+  from {  -webkit-box-shadow: 0 0 18px #5570bf; }
+  50% {  -webkit-box-shadow: 0 0 60px #394b7f; }
+  to {  -webkit-box-shadow: 0 0 18px #5570bf; }
+}
+/*
+.tv-show {
+        font-size: 0.9em;
+        margin: 20px 0;
+        padding: 85px 4px;
+}
+*/
+
+/* ---- END VISUALS STYLES ---- */
+
+
+
+/* //// END CONTENT STYLES //// */
+
+
+
+/* //// BEGIN TWEET STYLES //// */
+
+
+#make_me_scrollable {
+	width: 100%;
+	position: relative;
+	background: none;                 
+}
+                  
+#search_results {
+	width: 9000px;
+	position: relative; 
+	display: inline;
+	float: left;
+}
+
+.tweet {
+	float: left;
+	width: 450px;
+	height: 300px;
+	padding-bottom: 10px;
+	display: inline;
+	border: 1px solid;
+	border-color: #fff;
+	margin-left: 10px;
+	margin-right: 40px;
+	margin-top: 80px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background: rgba(1, 11, 16, 0.8)
+}
+
+.tweet_left {
+	float: left;
+	width: 28px;
+	margin: 2px 4px 4px 2px;
+}
+
+.tweet_left img {
+	border: 2px solid #fff;
+	margin-top: 1px;
+	float: left;
+}
+
+.tweet_left img:hover {
+	border: 2px solid #C40001;
+}
+
+.tweet_right {
+	float: right;
+	position: relative;
+	width: 450px;
+	padding: 2px 5px 4px;
+}
+
+.tweet_row {
+	 float: left;
+	 position: relative;
+		
+}
+
+.tweet_name {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #fff;
+	font-size: 35px;
+	font-weight: 200;
+	margin-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+}
+
+.tweet_username {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #5799DB;
+	font-size: 30px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.tweet_username a {
+	color: #5799DB;
+	font-size: 20px;
+	font-weight: 400;
+	text-decoration: none;
+	padding-bottom:4px;
+	float:left;
+}
+
+.tweet_text {
+	font-size: 22px;
+	font-weight: 300;
+	color: #fff;
+	word-wrap: break-word;
+	width: 100%;
+	margin: 0 0 3px;
+	margin-left: 4px;
+	padding-bottom: 10px; 
+}
+
+.tweet_text a {
+	color: #5799DB;
+	text-decoration: none;
+}
+
+.tweet_timestamp,.tweet_timestamp a {
+	color: #999;
+	font-size: 12px;
+	text-decoration: none;
+	float: left;
+	display: inline;
+}
+
+.tweet_timestamp {
+	margin-right: 4px;
+	float:right;
+}
+
+.tweet_timestamp .retweets {
+	float: left;
+	margin-right: 6px;
+}
+
+.tweet_timestamp img {
+	float: left;
+	margin-left: 4px;
+	margin-right: 3px;
+	margin-top: -2px;
+}
+
+.tweet_timestamp .stream_bluebird {
+	margin-left: 0;
+	margin-right: 4px;
+}
+
+.tweet_timestamp .imageof_reply {
+	margin-right: 2px;
+}
+
+.tweet_timestamp .imageof_retweet {
+	margin-top: -1px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* //// END TWEET STYLES //// */
+
+
+/* //// BEGIN REVEAL MODALS STYLES //// */
+                
+.reveal-modal-bg { 
+	position: fixed; 
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: rgba(0,0,0,.8);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0; 
+}
+        
+.reveal-modal {
+	visibility: hidden;
+	top: 100px; 
+	width: 93%;
+	position: absolute;
+	z-index: 101;
+	padding: 30px 40px 34px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+                
+.reveal-modal.small { 
+	width: 200px; 
+	margin-left: -140px;
+}
+
+.reveal-modal.medium { 
+	width: 400px; 
+	margin-left: -240px;
+}
+
+.reveal-modal.large { 
+	width: 600px; 
+	margin-left: -340px;
+}
+
+.reveal-modal.xlarge { 
+	width: 800px; 
+	margin-left: -440px;
+}
+
+.reveal-modal .close-reveal-modal {
+	font-size: 22px;
+	line-height: .5;
+	position: absolute;
+	top: 8px;
+	right: 11px;
+	color: #aaa;
+	text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+	font-weight: bold;
+	cursor: pointer;
+} 
+
+#instructions_modal {
+	top: 0;
+	padding: 0;
+	margin: 0;
+	width: 93%;
+}
+
+
+#instructions_modal img {
+	width: 100%;
+}
+
+
+/*  ///////////////////////// INFO MODAL  STYLES /////////////////// */
+.info_icon {
+	width: 99px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 100;
+	font-size: 30px;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;	
+	padding-bottom: 16px;
+}
+
+.info_text {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 100;
+	font-size: 30px;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;	
+}
+
+.info_container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 520px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.team-icons {
+	
+}
+
+.team-icons h3 {
+	color: #fff;
+	font-weight: 100;
+}
+
+.team-icons ul li{
+	padding: 0 5px;
+	margin: 0;
+	display: inline-block;
+	color: #fff;
+}
+
+.face {
+	float: left;
+	padding-left: 4px;
+	padding-bottom: 18px;
+}
+
+
+.names {
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-weight: 200;
+	font-size: 18px;
+	padding-right: 5px;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.icons_row{
+	width: 208px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.icons_row img{
+	float: left;
+	padding: 8px;	
+}
+
+.icons_row img:hover {
+	border: 2px dashed #fff;
+	border-radius: 50%;
+}
+
+.logo{
+	width: 480px;	
+}
+
+
+
+/* //// END REVEAL MODALS STYLES //// */
+
+/* /// NOTES: /// */
+
+/* Close button entity is &#215;
+
+        Example markup
+        
+        <div id="my_modal" class="reveal-modal">
+                <h2>Awesome. I have it.</h2>
+                <p class="lead">Your couch.  I it's mine.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+                <a class="close-reveal-modal">&#215;</a>
+        </div>
+
+*/
+
+
+/* //// BEGIN LOADER STYLES //// */
+
+.pace .pace-progress {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 12px;
+  background: #ff00c6;
+
+  -webkit-transition: -webkit-transform .3s, width 1s;
+  -moz-transition: width 1s;
+  -o-transform: width 1s;
+  transition: transform .3s, width 1s;
+
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+
+  pointer-events: none;
+}
+
+.pace.pace-active .pace-progress {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* //// END LOADER STYLES //// */

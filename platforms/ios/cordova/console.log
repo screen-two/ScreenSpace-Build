@@ -1,0 +1,12 @@
+2013-12-11 23:20:15.957 ScreenSpace[22815:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-11 23:20:16.006 ScreenSpace[22815:80b] Unlimited access to network resources
+2013-12-11 23:20:16.575 ScreenSpace[22815:80b] Resetting plugins due to page load.
+2013-12-11 23:20:16.714 ScreenSpace[22815:80b] Finished load of: file:///Users/Siobhan/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1D523CA7-10C1-49B6-AD64-BBA84991CDA5/ScreenSpace.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2013-12-11 23:34:03.593 ScreenSpace[23381:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-11 23:34:03.606 ScreenSpace[23381:80b] Unlimited access to network resources
+2013-12-11 23:34:03.645 ScreenSpace[23381:80b] [CDVTimer][splashscreen] 15.110970ms
+2013-12-11 23:34:03.645 ScreenSpace[23381:80b] [CDVTimer][TotalPluginStartup] 15.610039ms
+2013-12-11 23:34:03.987 ScreenSpace[23381:80b] Resetting plugins due to page load.
+2013-12-11 23:34:04.095 ScreenSpace[23381:80b] Finished load of: file:///Users/Siobhan/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1D523CA7-10C1-49B6-AD64-BBA84991CDA5/ScreenSpace.app/www/index.html
+2013-12-11 23:34:04.160 ScreenSpace[23381:80b] Received Event: deviceready
